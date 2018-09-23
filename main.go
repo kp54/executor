@@ -10,7 +10,7 @@ import (
 
 func main() {
 	if len(os.Args) < 3 {
-		os.Stdout.WriteString("usage: executor TARGET EXIT [ARGS...]")
+		os.Stdout.WriteString("usage: executor TARGET EXIT [ARGS...]\n")
 		return
 	}
 
